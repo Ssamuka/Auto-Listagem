@@ -88,11 +88,11 @@ time.sleep(5)
 
 # Insere o e-mail
 email_input = driver.find_element(By.ID, 'Username') # Localizador por ID
-email_input.send_keys("abertura@contabilizei.com.br") # Input dos dados cadastrais
+email_input.send_keys("**********") # Input dos dados cadastrais
 
 # Insere a senha
 password_input = driver.find_element(By.ID, 'Password')
-password_input.send_keys("123456")
+password_input.send_keys("**********")
 
 # Pressiona o btn de enter
 password_input.send_keys(Keys.ENTER)
