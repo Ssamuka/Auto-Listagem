@@ -736,5 +736,3 @@ except NoSuchElementException:
     pyautogui.press('enter')
     print("(15) Número de celular não encontrado. Continuando com a operação")
     print("")
- 
-# Aumentar a capacidade para mais (15)
